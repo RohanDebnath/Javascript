@@ -14,9 +14,11 @@ function display(elements){
 }
 
 let nums=[1,2,3,4,5];
+console.log(nums.forEach(square)); // Hence Giving as Undefined
 nums.forEach(square);
 nums.forEach(display);
 function square(elements,index,array) {
     array[index]=Math.pow(elements,2);
+    return Math.pow(elements,2);
 }
 
