@@ -12,6 +12,7 @@ const person1 = {
     eat: function(){console.log("I am eating a Krabby Patty")},
 }
 
+
 const person2 = {
     firstName: "Patrick",
     lastName: "Star",
